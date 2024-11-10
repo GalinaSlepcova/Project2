@@ -1,19 +1,18 @@
-@font-face {
-    font-family: 'TT Norms';
-    font-weight: 700;
-    src: url('./fonts/TTNorms-Medium.otf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
+    margin: 0 10%;
+    font-family: 'Playfair Display', sans-serif;
+    background: #f1f4f9;
+
+
     width: 375px;
     height: 812px;
     top: 206px;
     left: 168px;
-    gap: 0px;
     border-radius: 40px 0px 0px 0px;
-    border: 4px 0px 0px 0px;
-    opacity: 0px;
-
+    background: hsba(220, 3%, 98%, 1);
+    border: 4px solid hsba(0, 0%, 100%, 1)
 }
 
 h1 {
@@ -23,5 +22,94 @@ h1 {
     left: 16px;
     gap: 0px;
     opacity: 0px;
+
+}
+
+h1.header {
+    color: #474747;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40.13px;
+    text-align: left;
+
+
+}
+
+p {
+    width: 328px;
+    height: 31px;
+    top: 119px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+p.Following {
+    color: #979EA6;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.52px;
+    text-align: left;
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
+button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.52px;
+    text-align: left;
+    box-shadow: 0px 5px 20px 0px rgba(253, 113, 75, 0.25);
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
+button > .text1 {
+    width: 55px;
+    height: 17px;
+    top: 162px;
+    left: 27px;
+
+}
+
+button > .text2 {
+    width: 72px;
+    height: 17px;
+    top: 162px;
+    left: 146px;
+}
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    color:rgba(255, 255, 255, 1);
+    background: linear-gradient(270deg, #FD814A -12.71%, #FC5C4C 121.19%);
+    border: none;
+}
+
+.size1 {
+    width: 111px;
+    height: 41px;
+    top: 150px;
+    left: 16px;
+
+}
+
+.size2 {
+    width: 121px;
+    height: 41px;
+    top: 150px;
+    left: 135px;
+
+
+}
+
+
+img.cross {
+    width: 8px;
+    height: 8px;
+    top: 171px;
+    left: 105.34px;
+    margin-left: 1em;
 
 }
