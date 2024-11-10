@@ -113,3 +113,72 @@ img.cross {
     margin-left: 1em;
 
 }
+
+.image-container {
+    width: 343px;
+    height: 225px;
+    top: 217px;
+    left: 16px;
+    border-radius: 10px 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+
+
+}
+
+.box1 {
+    grid-area: box1;
+    width: 175px;
+    height: 164px;
+    top: 217px;
+    left: 16px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.box3 {
+    grid-area: box2;
+    width: 168px;
+    height: 81px;
+    top: 300px;
+    left: 191px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.box2 {
+    grid-area: box3;
+    width: 168px;
+    height: 83px;
+    top: 217px;
+    left: 191px;
+    border-radius: 0px 10px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.list {
+    display: grid;
+    grid-template-areas:
+    "box1 box3"
+    "box1 box2"
+    ;
+}
+
+.text-color {
+    width: 328px;
+    height: 31px;
+    top: 398px;
+    left: 27px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    line-height: 21.24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin: 20px;
+
+
+
+}
