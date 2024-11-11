@@ -105,3 +105,72 @@ img.cross {
     margin-left: 1em;
 }
 
+.container-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+    width: 343px;
+    height: 225px;
+    top: 217px;
+    left: 16px;
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.column1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    height: 164px;
+}
+
+.column2 {
+    display: flex; 
+    flex-direction: column;
+    width: 168px;
+    height: 81px;
+}
+.card1 {
+    width: 175px;
+    height: 164px;
+    top: 217px;
+    left: 16px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    object-fit: cover;
+
+}
+
+.card3 {
+    width: 168px;
+    height: 83px;
+    top: 217px;
+    left: 191px;
+    border-radius: 0px 10px 0px 0px;
+    border: 1px 0px 0px 0px;
+    object-fit: cover;
+
+}
+
+.card2 {
+    width: 168px;
+    height: 81px;
+    top: 300px;
+    left: 191px;
+    border: 1px 0px 0px 0px;
+    object-fit: cover;
+
+}
+
+.gurated {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.18em;
+    text-align: left;
+
+}
