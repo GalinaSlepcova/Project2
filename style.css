@@ -11,8 +11,7 @@ body {
     top: 206px;
     left: 168px;
     border-radius: 40px 0px 0px 0px;
-    background: hsba(220, 3%, 98%, 1);
-    border: 4px solid hsba(0, 0%, 100%, 1)
+    background: rgba(241, 244, 249, 1);
 }
 
 h1 {
@@ -20,9 +19,6 @@ h1 {
     height: 40px;
     top: 68px;
     left: 16px;
-    gap: 0px;
-    opacity: 0px;
-
 }
 
 h1.header {
@@ -40,8 +36,6 @@ p {
     height: 31px;
     top: 119px;
     left: 16px;
-    gap: 0px;
-    opacity: 0px;
 
 }
 
@@ -100,8 +94,6 @@ button > .text2 {
     height: 41px;
     top: 150px;
     left: 135px;
-
-
 }
 
 
@@ -111,10 +103,9 @@ img.cross {
     top: 171px;
     left: 105.34px;
     margin-left: 1em;
-
 }
 
-.image-container {
+.box1 {
     width: 343px;
     height: 225px;
     top: 217px;
@@ -123,12 +114,13 @@ img.cross {
     border: 1px solid rgba(255, 255, 255, 1);
     background: rgba(255, 255, 255, 1);
     margin-top: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 
 
 }
 
-.box1 {
-    grid-area: box1;
+.card1 {
+    grid-area: card1;
     width: 175px;
     height: 164px;
     top: 217px;
@@ -138,8 +130,8 @@ img.cross {
 
 }
 
-.box3 {
-    grid-area: box2;
+.card3 {
+    grid-area: card2;
     width: 168px;
     height: 81px;
     top: 300px;
@@ -148,8 +140,8 @@ img.cross {
 
 }
 
-.box2 {
-    grid-area: box3;
+.card2 {
+    grid-area: card3;
     width: 168px;
     height: 83px;
     top: 217px;
@@ -162,12 +154,21 @@ img.cross {
 .list {
     display: grid;
     grid-template-areas:
-    "box1 box3"
-    "box1 box2"
+    "card1 card3"
+    "card1 card2" 
     ;
 }
 
-.text-color {
+.plus-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.plus-2 {
     width: 328px;
     height: 31px;
     top: 398px;
@@ -177,8 +178,29 @@ img.cross {
     line-height: 21.24px;
     text-align: left;
     color: rgba(0, 0, 0, 1);
-    margin: 20px;
+}
 
+.plus-3 {
+    width: 24px;
+    height: 24px;
+    top: 398px;
+    left: 320px;
+    border-radius: 5px;
+    background-color: rgba(196, 196, 196, 1);
+
+
+    border: none;
+
+}
+
+.pluss {
+    display: flex;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    top: 406px;
+    left: 328px;
+    color: rgba(255, 255, 255, 1);
 
 
 }
